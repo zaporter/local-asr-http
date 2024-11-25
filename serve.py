@@ -17,6 +17,11 @@ async def startup_event():
 
 @app.get("/status")
 async def status():
+    if asr_model is None:
+        return JSONResponse(
+            status_code=500,
+            content={"error": "Model not loaded"}
+        )
     return {"status": "ok"}
 
 @app.post("/transcribe")

@@ -1,3 +1,5 @@
+# `np.sctypes` was removed in the NumPy 2.0 release. Access dtypes explicitly instead.
+numpy == 1.26.4
 nemo_toolkit[asr] == 2.0.0
 fastapi
 uvicorn
