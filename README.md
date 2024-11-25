@@ -1,5 +1,5 @@
 # local-asr-http
-Simple HTTP server wrapped in docker to host the nvidia/parakeet-tdt-1.1b transcription model
+Simple HTTP server wrapped in docker to host the [nvidia/parakeet-tdt-1.1b](https://huggingface.co/nvidia/parakeet-tdt-1.1b) transcription model
 
 Not production ready, stable, secure, or performant. If you want to use this, just fork it. Happy to accept PRs.
 
