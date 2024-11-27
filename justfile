@@ -13,4 +13,4 @@ run port='9887':
     --ulimit memlock=-1 \
     --ulimit stack=67108864 \
     -p {{port}}:8000 \
-    local-asr-http
+    local-asr-http 
